@@ -1,0 +1,32 @@
+body {
+ color: ghostwhite;
+ font-family: 'Abril Fatface', cursive;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 90px;
+  color:grey;
+}
+
+.jumbotron  {
+  height: 100%;
+  background-image: url("./img/new-york-691072_1920.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron .caption {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+.jumbotron {
+  /* position: relative; */
+  width: 100%;
+  height: 600px;
+  padding: 5;
+  
+  box-shadow: 10px 5px 20px 2px lightslategrey;
+}
